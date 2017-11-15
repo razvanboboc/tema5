@@ -2,11 +2,10 @@
 #include <cstring>
 #include <iostream>
 using namespace std;
-string palindrom;
-
+char palindrom[100];
 int main()
 {
-    cin>>palindrom;
+    scanf("%f",)
     int m= strlen(palindrom);
     for (int i = 0; i < m; i++,m--)
         if(palindrom[i]!=palindrom[m-1])
